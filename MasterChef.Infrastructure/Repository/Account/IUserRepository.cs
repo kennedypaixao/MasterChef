@@ -9,6 +9,6 @@ namespace MasterChef.Infrastructure.Repository.Account
 {
 	public interface IUserRepository
 	{
-		public Task<UserDto> Get(string email, string password);
+		public Task<UserDto> GetAsync(string email, string password);
 	}
 }

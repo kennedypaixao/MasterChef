@@ -19,7 +19,7 @@ namespace MasterChef.Infrastructure.Repository.Account
 			_connectionString = connectionString;
 		}
 
-		public async Task<UserDto> Get(string email, string password)
+		public async Task<UserDto> GetAsync(string email, string password)
 		{
 			using (IDbConnection db = new SqlConnection(_connectionString))
 			{

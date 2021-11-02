@@ -19,7 +19,7 @@ namespace MasterChef.Controllers
 		}
 
 		[HttpGet]
-		public async Task<ActionResult> Get(string email, string password)
+		public async Task<ActionResult> GetAsync(string email, string password)
 		{
 			var user = await _accountService.ValidateUser(email, password);
 

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MasterChef.Application.Service
 {
-	public class AccountService: IAccountService
+	public class AccountService : IAccountService
 	{
 		private IUserRepository _userRepository;
 
@@ -20,21 +20,14 @@ namespace MasterChef.Application.Service
 
 		public async Task<UserDto> ValidateUser(string email, string senha)
 		{
-			try
-			{
-				var user = await _userRepository.Get(email, senha);
+			var user = await _userRepository.GetAsync(email, senha);
 
-				if (user != null)
-				{
-					return user;
-				}
-			}
-			catch (Exception e)
+			if (user != null)
 			{
-
+				return user;
 			}
 
-			return new UserDto();
+			return null;
 		}
 	}
 }
