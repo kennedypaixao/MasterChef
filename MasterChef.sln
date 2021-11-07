@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterChef.API", "MasterChef\MasterChef.API.csproj", "{5440F780-3C4A-4FAE-BBE4-3AE727C05C6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterChef.API", "MasterChef\MasterChef.API.csproj", "{5440F780-3C4A-4FAE-BBE4-3AE727C05C6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterChef.Application", "MasterChef.Application\MasterChef.Application.csproj", "{C3010A00-D290-497B-BC13-E0E5C96A2074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterChef.Application", "MasterChef.Application\MasterChef.Application.csproj", "{C3010A00-D290-497B-BC13-E0E5C96A2074}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterChef.Domain", "MasterChef.Domain\MasterChef.Domain.csproj", "{792674A3-66A6-4AAC-B802-A93FB517AF29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterChef.Domain", "MasterChef.Domain\MasterChef.Domain.csproj", "{792674A3-66A6-4AAC-B802-A93FB517AF29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterChef.Infrastructure", "MasterChef.Infrastructure\MasterChef.Infrastructure.csproj", "{F0D056D1-7C57-4CA9-93C1-08CE9A20E4A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterChef.Infrastructure", "MasterChef.Infrastructure\MasterChef.Infrastructure.csproj", "{F0D056D1-7C57-4CA9-93C1-08CE9A20E4A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterChef.IoC", "MasterChef.IoC\MasterChef.IoC.csproj", "{EBFC02B6-034E-4D67-B749-8B0899877861}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterChef.IoC", "MasterChef.IoC\MasterChef.IoC.csproj", "{EBFC02B6-034E-4D67-B749-8B0899877861}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterChef.Web", "MasterChef.Web\MasterChef.Web.csproj", "{50E2F498-7EDE-4517-81D6-14E9E41D03BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EBFC02B6-034E-4D67-B749-8B0899877861}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBFC02B6-034E-4D67-B749-8B0899877861}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBFC02B6-034E-4D67-B749-8B0899877861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E2F498-7EDE-4517-81D6-14E9E41D03BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E2F498-7EDE-4517-81D6-14E9E41D03BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E2F498-7EDE-4517-81D6-14E9E41D03BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E2F498-7EDE-4517-81D6-14E9E41D03BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

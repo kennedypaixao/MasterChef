@@ -14,5 +14,13 @@ namespace MasterChef.Domain.Dto
 		public string Description { get; set; }
 		public string ValueMeasure { get; set; }
 		public MeasureEnum Measure { get; set; }
+
+		public string MeasureDescription
+		{
+			get
+			{
+				return System.Enum.GetName(typeof(MeasureEnum), this.Measure);
+			}
+		}
 	}
 }

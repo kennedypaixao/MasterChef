@@ -1,0 +1,185 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+.panel-primary {
+    border-color: #1ab394;
+}
+
+    .panel-primary > .panel-heading {
+        background-color: #1ab394;
+        border-color: #1ab394;
+    }
+
+.panel-success {
+    border-color: #1c84c6;
+}
+
+    .panel-success > .panel-heading {
+        background-color: #1c84c6;
+        border-color: #1c84c6;
+        color: #ffffff;
+    }
+
+.panel-info {
+    border-color: #23c6c8;
+}
+
+    .panel-info > .panel-heading {
+        background-color: #23c6c8;
+        border-color: #23c6c8;
+        color: #ffffff;
+    }
+
+.panel-warning {
+    border-color: #f8ac59;
+}
+
+    .panel-warning > .panel-heading {
+        background-color: #f8ac59;
+        border-color: #f8ac59;
+        color: #ffffff;
+    }
+
+.panel-danger {
+    border-color: #ed5565;
+}
+
+    .panel-danger > .panel-heading {
+        background-color: #ed5565;
+        border-color: #ed5565;
+        color: #ffffff;
+    }
+
+/* PANELS */
+.panel-title > .small,
+.panel-title > .small > a,
+.panel-title > a,
+.panel-title > small,
+.panel-title > small > a {
+    color: inherit;
+}
+
+.page-heading {
+    border-top: 0;
+    padding: 0 10px 20px 10px;
+}
+
+.panel-heading h1,
+.panel-heading h2 {
+    margin-bottom: 5px;
+}
+
+.panel-body {
+    padding: 15px;
+}
+/* Bootstrap 3.3.x panels */
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.panel-heading {
+    color: white;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    border-top: 1px solid #e7eaec;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #e7eaec;
+}
+
+.panel-default {
+    border-color: #e7eaec;
+}
+
+.panel-group .panel + .panel {
+    margin-top: 5px;
+}
+
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+}

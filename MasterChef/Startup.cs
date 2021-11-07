@@ -39,6 +39,11 @@ namespace MasterChef
 				app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MasterChef v1"));
 			}
 
+			app.UseCors(builder => builder
+				.AllowAnyOrigin()
+				.AllowAnyMethod()
+				.AllowAnyHeader());
+
 			app.UseHttpsRedirection();
 
 			app.UseRouting();
